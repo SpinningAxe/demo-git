@@ -215,7 +215,7 @@ function ChampionPage() {
   Header.style.display = "block";
   Header.style.alignItems = "center";
   Header.style.justifyContent = "center";
-  Header.innerHTML = `<img src="content_type_icon_champion__3nwJQ.png" style=" width: 22px; height: 36px; margin: 0 0 0 40.25vw;">
+  Header.innerHTML = `<img src="content_type_icon_champion__3nwJQ.png" style=" width: 22px; height: 36px; margin: 0 0 0 44.75vw;">
   <div">
   <h1 style="text-align: center; margin-bottom: 4px; font-size: 30px; color: white;">CHAMPIONS</h1>
   </div>`;
@@ -270,8 +270,8 @@ function ChampionPage() {
     Context.style.textAlign = "center";
     Context.innerHTML = `<img src="${ImageList[i]}" style="width: 100%; height: 400px; object-fit: cover; box-shadow: 15 15px -8px 0 rgba(0, 0, 0, 0.2), 0 -2px 20px 0 rgba(0, 0, 0, 0.19);">
     <div style="margin: 0px;padding: 6px; textAlign: center;border-top: 0.4 solid white;background-color: #121212;">
-    <h1 style="margin-bottom: 4px; font-size: 30px; color: white;">${NameList[i]}</h1>
-    <p style="margin-top: 5px; textAlign: center;font-size: 15px; color: white;>">${RegionList[i]}</p>
+    <h1 style="margin: 0 0 4px 0; font-size: 30px; color: white;">${NameList[i]}</h1>
+    <p style="margin: 5px 0 9px 0; textAlign: center;font-size: 15px; color: white;>">${RegionList[i]}</p>
     </div>`;
 
     ChampionCards.appendChild(Context);
